@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="firstApp.FirstPage"
+             Title="First Page"
+             >    
+    <ContentPage.Content>
+        <StackLayout x:Name="StackLayout" Padding="12,12,12,12" BackgroundColor="BurlyWood">            
+            <Button x:Name ="Button1" Text="1"  FontAttributes="Bold" Clicked="Button_Click1"></Button>
+            <Button x:Name ="Button2" Text="10" FontAttributes="Bold" Clicked="Button_Click2"></Button>
+            <Button x:Name ="Button3" Text="100" FontAttributes="Bold" Clicked="Button_Click3"></Button>
+            <Button x:Name ="Button4" Text="Update" FontAttributes="Bold" Clicked="Button_Click4"></Button>
+            <Label x:Name="TimerLabel"></Label>
+            <Label x:Name="Label1" FontSize="27" Text="0" TextColor="RosyBrown"></Label>
+            <CheckBox x:Name="CheckBox1" CheckedChanged="CheckOn"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
